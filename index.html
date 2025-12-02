@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayaprakash</title>
+    <link rel="stylesheet" href="portfolio-css.css">
+</head>
+<body>
+    <!-- 3D Canvas Container -->
+    <div id="canvas-container"></div>
+
+    <!-- Navigation -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="nav-glass">
+                <div class="nav-content">
+                    <div class="logo">PORTFOLIO</div>
+                    <div class="nav-buttons">
+                        <button class="nav-btn active" data-section="landing">Home</button>
+                        <button class="nav-btn" data-section="about">About</button>
+                        <button class="nav-btn" data-section="work">Work</button>
+                        <button class="nav-btn" data-section="resume">Resume</button>
+                        <button class="nav-btn" data-section="contact">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Sections -->
+    <div class="content-wrapper">
+        <!-- Landing Section -->
+        <section id="landing-section" class="section active">
+            <div class="glass-card large">
+                <h1 class="gradient-text hero-title">Jayaprakash</h1>
+                <p class="subtitle">Creative Developer & 3D Artist</p>
+                <p class="tagline">Crafting immersive digital experiences</p>
+                <button class="cta-button" data-goto="work">Explore My Work</button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about-section" class="section">
+            <div class="glass-card">
+                <h2 class="section-title gradient-text">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p class="about-text">
+                            I'm a passionate creative developer specializing in 3D web experiences, 
+                            interactive design, and immersive digital storytelling. With over 5 years 
+                            of experience, I bring ideas to life through code and creativity.
+                        </p>
+                        <div class="info-list">
+                            <div class="info-item">
+                                <span class="icon">🌍</span>
+                                <span>Based in Your City, Country</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">💼</span>
+                                <span>5+ Years Experience</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">🎨</span>
+                                <span>50+ Projects Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-content">
+                        <h3 class="skills-title">Expertise</h3>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Three.js</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">WebGL</span>
+                            <span class="skill-tag">GSAP</span>
+                            <span class="skill-tag">Blender</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work-section" class="section">
+            <div class="glass-card scrollable">
+                <h2 class="section-title gradient-text">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-project="0">
+                        <div class="project-preview">
+                            <span class="preview-icon">🎨</span>
+                        </div>
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-desc">Full-stack solution with 3D product views</p>
+                        <p class="project-tech">React, Three.js, Node.js</p>
+                    </div>
+                    <div class="project-card" data-project="1">
+                        <div class="project-preview">
+                            <span class="preview-icon">🎨</span>
+                        </div>
+                        <h3 class="project-title">Interactive Portfolio</h3>
+                        <p class="project-desc">Award-winning portfolio site</p>
+                        <p class="project-tech">WebGL, GSAP</p>
+                    </div>
+                    <div class="project-card" data-project="2">
+                        <div class="project-preview">
+                            <span class="preview-icon">🎨</span>
+                        </div>
+                        <h3 class="project-title">Mobile Game UI</h3>
+                        <p class="project-desc">Immersive gaming interface</p>
+                        <p class="project-tech">Unity, C#</p>
+                    </div>
+                    <div class="project-card" data-project="3">
+                        <div class="project-preview">
+                            <span class="preview-icon">🎨</span>
+                        </div>
+                        <h3 class="project-title">3D Configurator</h3>
+                        <p class="project-desc">Real-time product customization</p>
+                        <p class="project-tech">Three.js, React</p>
+                    </div>
+                    <div class="project-card" data-project="4">
+                        <div class="project-preview">
+                            <span class="preview-icon">🎨</span>
+                        </div>
+                        <h3 class="project-title">Data Dashboard</h3>
+                        <p class="project-desc">Analytics visualization platform</p>
+                        <p class="project-tech">D3.js, React</p>
+                    </div>
+                    <div class="project-card" data-project="5">
+                        <div class="project-preview">
+                            <span class="preview-icon">🎨</span>
+                        </div>
+                        <h3 class="project-title">VR Experience</h3>
+                        <p class="project-desc">Virtual reality showcase</p>
+                        <p class="project-tech">A-Frame, WebXR</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume-section" class="section">
+            <div class="glass-card scrollable">
+                <h2 class="section-title gradient-text">Resume</h2>
+                
+                <div class="resume-content">
+                    <div class="resume-section">
+                        <h3 class="resume-heading">Experience</h3>
+                        <div class="experience-grid">
+                            <div class="experience-card">
+                                <div class="experience-header">
+                                    <div>
+                                        <h4 class="job-title">Senior 3D Developer</h4>
+                                        <p class="company-name">Tech Innovation Inc.</p>
+                                    </div>
+                                    <span class="job-date">2021 - Present</span>
+                                </div>
+                                <p class="job-desc">Leading development of immersive 3D web experiences and interactive applications for Fortune 500 clients.</p>
+                            </div>
+                            
+                            <div class="experience-card">
+                                <div class="experience-header">
+                                    <div>
+                                        <h4 class="job-title">Frontend Developer</h4>
+                                        <p class="company-name">Creative Digital Agency</p>
+                                    </div>
+                                    <span class="job-date">2019 - 2021</span>
+                                </div>
+                                <p class="job-desc">Developed innovative web solutions with focus on performance and user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3 class="resume-heading">Education</h3>
+                        <div class="experience-card">
+                            <h4 class="job-title">B.S. Computer Science</h4>
+                            <p class="company-name">University Name</p>
+                            <p class="job-date">2015 - 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-section" class="section">
+            <div class="glass-card medium">
+                <h2 class="section-title gradient-text">Let's Connect</h2>
+                
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label class="form-label">Name</label>
+                        <input type="text" id="name-input" class="form-input" placeholder="Your name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input type="email" id="email-input" class="form-input" placeholder="your@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Message</label>
+                        <textarea id="message-input" class="form-textarea" rows="5" placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    
+                    <button class="submit-button" id="submit-btn">Send Message</button>
+                </div>
+
+                <div class="social-section">
+                    <p class="social-label">Connect with me</p>
+                    <div class="social-links">
+                        <a href="#" class="social-btn linkedin" title="LinkedIn">💼</a>
+                        <a href="#" class="social-btn github" title="GitHub">💻</a>
+                        <a href="#" class="social-btn dribbble" title="Dribbble">🎨</a>
+                        <a href="#" class="social-btn twitter" title="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Badge -->
+    <div class="footer-badge">
+        <div class="badge-glass">
+            <p class="badge-text">Built with <span class="purple-text">Three.js</span> & <span class="indigo-text">React</span></p>
+        </div>
+    </div>
+
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <script src="portfolio-js.js"></script>
+</body>
+</html>
